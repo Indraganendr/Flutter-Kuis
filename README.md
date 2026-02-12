@@ -1,16 +1,46 @@
-# uts_ppb
+# Pemrograman Perangkat Bergerak - Flutter Quiz App
 
-A new Flutter project.
+Proyek ini adalah aplikasi kuis berbasis mobile yang dibangun menggunakan framework **Flutter**. Aplikasi ini dikembangkan sebagai bagian dari penilaian UTS/Kuis pada mata kuliah Pemrograman Perangkat Bergerak (PPB).
 
-## Getting Started
+## 📌 Deskripsi Proyek
+Aplikasi "Flutter-Kuis" merupakan platform kuis interaktif yang dirancang untuk menguji pemahaman pengguna mengenai topik tertentu. Aplikasi ini menerapkan konsep state management, widget kustom, dan navigasi antar halaman dalam Flutter.
 
-This project is a starting point for a Flutter application.
+## 🚀 Fitur Utama
+- **Interaktif UI:** Tampilan antarmuka yang bersih dan responsif.
+- **Sistem Skor:** Kalkulasi nilai secara otomatis setelah kuis selesai.
+- **Navigasi Dinamis:** Perpindahan antar halaman kuis yang lancar.
+- **Validasi Jawaban:** Memberikan umpan balik langsung untuk jawaban yang dipilih.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Teknologi yang Digunakan
+- **Framework:** Flutter
+- **Bahasa Pemrograman:** Dart
+- **Tools:** VS Code / Android Studio, Git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 💻 Cara Menjalankan Proyek
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone Repositori**
+   ```bash
+   git clone [https://github.com/Indraganendr/Flutter-Kuis.git](https://github.com/Indraganendr/Flutter-Kuis.git)
+2. **Masuk ke Direktori Proyek**
+   ```bash
+   cd Flutter-Kuis
+3. Ambil Dependensi (Pub get)
+   ```bash
+   flutter pub get
+4. Jalankan Aplikasi Pastikan emulator atau perangkat fisik sudah terhubung.
+   ```bash
+   flutter run
+  
+👥 Pengembang
+Ngurah Gede Indra Ganendra Putra - (Mahasiswa Teknologi Rekayasa Perangkat Lunak, Politeknik Negeri Bali)
+
+📄 Lisensi
+Proyek ini dibuat untuk tujuan akademik dan pendidikan.
+
+
+### Cara Memasang di GitHub:
+1. Buka halaman repositori [Flutter-Kuis](https://github.com/Indraganendr/Flutter-Kuis) di browser.
+2. Karena kamu sedang di halaman editor (seperti di gambar terakhir), langsung saja **copy-paste** teks di atas ke dalam kolom "Enter file contents here".
+3. Klik tombol hijau **"Commit changes..."** di pojok kanan atas untuk menyimpan.
+
+Setelah kamu melakukan *Commit*, file README ini akan otomatis tampil di halaman utam
