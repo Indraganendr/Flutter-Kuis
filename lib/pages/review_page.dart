@@ -136,8 +136,7 @@ class _ReviewPageState extends State<ReviewPage> {
         children: [
           TileLayer(
             urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-            userAgentPackageName: 'com.example.app',
-            // tileProvider dihapus karena package caching dihapus
+            userAgentPackageName: 'com.uts_ppb.app',
           ),
           MarkerLayer(markers: markers),
         ],
