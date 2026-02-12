@@ -6,10 +6,15 @@ Proyek ini adalah aplikasi kuis berbasis mobile yang dibangun menggunakan framew
 Aplikasi "Flutter-Kuis" merupakan platform kuis interaktif yang dirancang untuk menguji pemahaman pengguna mengenai topik tertentu. Aplikasi ini menerapkan konsep state management, widget kustom, dan navigasi antar halaman dalam Flutter.
 
 ## 🚀 Fitur Utama
-- **Interaktif UI:** Tampilan antarmuka yang bersih dan responsif.
-- **Sistem Skor:** Kalkulasi nilai secara otomatis setelah kuis selesai.
-- **Navigasi Dinamis:** Perpindahan antar halaman kuis yang lancar.
-- **Validasi Jawaban:** Memberikan umpan balik langsung untuk jawaban yang dipilih.
+- **Autentikasi User:** Fitur pendaftaran (Sign Up) dan masuk (Login) untuk mengamankan data pengguna.
+- **Kuis Dinamis:**
+  - Terdiri dari 5 soal pilihan ganda setiap sesi.
+  - Soal bersifat dinamis dan selalu berubah-ubah setiap kali dimainkan.
+- **Riwayat Kuis:** Pengguna dapat melihat daftar hasil kuis yang telah dikerjakan sebelumnya.
+- **Direktori Tempat Les (Maps):**
+  - Integrasi peta untuk melihat lokasi tempat les.
+  - Input lokasi dilakukan secara manual menggunakan koordinat **Latitude** dan **Longitude**.
+  - Fitur rating bintang 5 untuk memberikan ulasan pada tempat les tersebut.
 
 ## 🛠️ Teknologi yang Digunakan
 - **Framework:** Flutter
@@ -43,4 +48,4 @@ Proyek ini dibuat untuk tujuan akademik dan pendidikan.
 2. Karena kamu sedang di halaman editor (seperti di gambar terakhir), langsung saja **copy-paste** teks di atas ke dalam kolom "Enter file contents here".
 3. Klik tombol hijau **"Commit changes..."** di pojok kanan atas untuk menyimpan.
 
-Setelah kamu melakukan *Commit*, file README ini akan otomatis tampil di halaman utam
+Setelah kamu melakukan *Commit*, file README ini akan otomatis tampil di halaman utama repositori kamu, membuat tampilan tugas UTS kamu jadi jauh lebih rapi dan informatif bagi dosen pengampu.
